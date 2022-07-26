@@ -143,12 +143,50 @@ section:nth-of-type(even) {
     background-color: #b5ddff;
 }
 
+h3 {
+    color: #0084fd;
+}
+
+#product-presentation .card>* {
+    padding: 15px 0;
+}
+
 #product-presentation .column:first-child .card {
     padding-bottom: 0;
 }
 
-/* /product-presentation */
+.fa-4x {
+    color: #0084fd;
+}
 
+/* strategic */
+#strategic h3,
+#strategic p {
+    color: white;
+}
+
+#strategic h3 {
+    font-size: 2rem;
+}
+
+#strategic .container>* {
+    padding: 15px 0;
+}
+
+#strategic h3 {
+    font-size: 2rem;
+}
+
+#strategic .card p {
+    color: black;
+}
+
+.fa-arrow-down {
+    background-color: #9792e4;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+}
 
 /* testimonials */
 
@@ -160,8 +198,13 @@ section:nth-of-type(even) {
     color: var(--even-section-bg-color);
 }
 
+#testimonials h3 {
+    color: black;
+}
+
 #testimonials .card {
     background-color: var(--even-section-bg-color);
+    color: white;
 }
 
 #testimonials img {
@@ -171,15 +214,87 @@ section:nth-of-type(even) {
     border-radius: 50%
 }
 
-
 #testimonials .card.flex {
     flex-direction: column;
 }
 
-/* /testimonials */
+
+#testimonials .card>* {
+    padding: 15px 0;
+}
 
 
+#testimonials .row .column:first-child>* {
+    padding: 15px 0;
+}
 
+/* benefits */
+#benefits h2 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+
+#benefits .card .number,
+#benefits .card h3 {
+    color: #9792e4;
+    font-size: 2rem;
+}
+
+#benefits .card>* {
+    margin: 15px 0;
+    text-align: left;
+}
+
+#benefits .card button {
+    width: 40%;
+    background-color: #9792e4;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    color: white;
+    padding: 10px 25px;
+}
+
+/* about us */
+#about-us h2 {
+    font-size: 2rem;
+    color: #9792e4;
+}
+
+#about-us .container>* {
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+#about-us img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+#about-us .help-people>* {
+    margin: 15px 0;
+}
+
+#about-us .help-people p {
+    color: #9792e4;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+#about-us .help-people button {
+    width: 70%;
+    background-color: #9792e4;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    color: white;
+    padding: 10px 25px;
+}
+
+
+/* footer */
 
 
 footer {
@@ -188,7 +303,7 @@ footer {
 
 
 /* esempio di ingombro bordi */
-.square-container {
+/* .square-container {
     width: 250px;
     border: 50px solid orange
 }
@@ -196,7 +311,7 @@ footer {
 .square {
     width: 250px;
     height: 250px;
-}
+} */
 
 /* /esempio di ingombro bordi */
 
@@ -242,6 +357,10 @@ footer {
         flex-direction: row;
     }
 
+    #benefits .row .column {
+        width: calc(100% / 3);
+    }
+
 }
 
 
@@ -260,7 +379,7 @@ footer {
 }
 
 .debug .column {
-    min-height: 350px;
+    min-height: 100px;
     border: 1px dashed red;
 }
 
