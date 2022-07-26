@@ -257,6 +257,10 @@ h3 {
     padding: 10px 25px;
 }
 
+#benefits .row {
+    padding-bottom: 50px;
+}
+
 /* about us */
 #about-us h2 {
     font-size: 2rem;
@@ -293,14 +297,61 @@ h3 {
     padding: 10px 25px;
 }
 
+/* get started */
+#get-started .container>* {
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+
+#get-started .container h4 {
+    opacity: 0.5;
+    padding-top: 20px;
+}
+
+#get-started .container h2 {
+    font-size: 3rem;
+    color: #fdc15f;
+}
+
+
+#get-started .container h3 {
+    font-size: 2rem;
+}
+
+#get-started .container button {
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    color: #9792e4;
+    padding: 10px;
+}
+
+#get-started {
+    margin: 0;
+}
 
 /* footer */
-
-
 footer {
     background-color: #333333;
 }
 
+footer p {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.underline {
+    color: #9792e4;
+    text-decoration: underline;
+}
+
+footer .container>* {
+    padding: 20px;
+}
 
 /* esempio di ingombro bordi */
 /* .square-container {
@@ -369,20 +420,3 @@ footer {
 
 
 /***** debug *****/
-
-.debug section {
-    min-height: 500px;
-}
-
-.debug footer {
-    min-height: 160px;
-}
-
-.debug .column {
-    min-height: 100px;
-    border: 1px dashed red;
-}
-
-.debug .card {
-    height: 100%;
-}
