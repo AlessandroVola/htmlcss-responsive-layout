@@ -386,10 +386,49 @@ footer .container>* {
         flex-direction: row;
     }
 
+    #testimonials .card:last-child {
+        align-items: center;
+    }
+
+    #benefits h2 {
+        width: 100%;
+        font-size: 3rem;
+        padding: 50px 0;
+    }
+
+    #benefits .row .column {
+        width: calc(100% / 2);
+        padding: 0 10px;
+    }
+
+    #about-us .container{
+        display: flex;
+        justify-content: space-between;
+    } 
+
+
+    #about-us .container:first-child p{
+        font-size: 1.7rem;
+    } 
+
+    #about-us .container:first-child div>*{
+        padding: 30px 0;
+    } 
+    
+
+
+    #about-us img{
+        width: 100%;
+    } 
 
 }
 
 @media screen and (min-width: 1200px) {
+
+
+    .container {
+        padding: 0 200px;
+    }
 
     .menu .fa-bars {
         display: none;
@@ -406,10 +445,28 @@ footer .container>* {
 
     #product-presentation .column:first-child .card {
         flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #product-presentation .column:first-child .card p{
+        width: 40%;
+    }
+
+    #product-presentation img{
+        width: 42%;
+    }
+
+
+    #benefits h2 {
+        width: 100%;
+        font-size: 3rem;
+        padding: 50px 0;
     }
 
     #benefits .row .column {
         width: calc(100% / 3);
+        padding: 0 10px;
+
     }
 
 }
@@ -420,3 +477,4 @@ footer .container>* {
 
 
 /***** debug *****/
+
